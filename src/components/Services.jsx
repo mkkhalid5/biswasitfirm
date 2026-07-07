@@ -80,7 +80,6 @@ const Services = () => {
                 </motion.div>
 
                 {/* Cards */}
-
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {services.map((service, index) => {
                         const Icon = service.icon;
@@ -101,26 +100,19 @@ const Services = () => {
                                 className="group rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition hover:shadow-xl"
                             >
                                 {/* Icon */}
-
                                 <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-3xl text-blue-600 transition group-hover:bg-blue-600 group-hover:text-white">
                                     <Icon />
                                 </div>
 
                                 {/* Content */}
-
                                 <h3 className="mt-6 text-2xl font-semibold text-slate-900">
                                     {service.title}
                                 </h3>
-
                                 <p className="mt-4 leading-7 text-slate-600">
                                     {service.description}
                                 </p>
-
                                 {/* Button */}
-
-                                <button className="mt-8 text-blue-600 font-semibold transition group-hover:translate-x-2">
-                                    Learn More →
-                                </button>
+                                <button className="mt-8 text-blue-600 font-semibold transition group-hover:translate-x-2"> Learn More → </button>
                             </motion.div>
                         );
                     })}

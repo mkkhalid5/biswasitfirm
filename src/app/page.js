@@ -1,6 +1,8 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,7 +11,7 @@ export default function Home() {
       <section id="home">
         <Hero />
       </section>
-      
+
       <section id="about">
         <About />
       </section>
@@ -19,11 +21,11 @@ export default function Home() {
       </section>
 
       <section id="why-us">
-        ...
+        <WhyChooseUs />
       </section>
 
       <section id="contact">
-        ...
+        <Contact />
       </section>
     </div>
   );
