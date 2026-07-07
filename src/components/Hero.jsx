@@ -10,13 +10,11 @@ const Hero = () => {
             className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white"
         >
             {/* Background Blur */}
-
             <div className="absolute left-0 top-20 h-72 w-72 rounded-full bg-blue-200/40 blur-[120px]" />
             <div className="absolute right-0 bottom-0 h-80 w-80 rounded-full bg-cyan-200/40 blur-[120px]" />
 
             <div className="mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-between gap-14 px-6 pt-28 pb-20 lg:flex-row lg:px-8">
                 {/* Left Content */}
-
                 <motion.div
                     initial={{ opacity: 0, x: -60 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -63,7 +61,6 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Right Image */}
-
                 <motion.div
                     initial={{ opacity: 0, x: 60 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -84,7 +81,6 @@ const Hero = () => {
                     />
 
                     {/* Floating Card */}
-
                     <motion.div
                         animate={{
                             y: [0, 12, 0],
