@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
                             alt="Why Choose Us"
                             width={100}
                             height={100}
-                            className="rounded-3xl shadow-xl"
+                            className="rounded-3xl shadow-xl w-full h-full"
                         />
 
                         <div className="absolute -bottom-6 left-6 rounded-2xl bg-blue-600 px-6 py-5 text-white shadow-xl">

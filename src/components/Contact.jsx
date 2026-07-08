@@ -172,9 +172,7 @@ const Contact = () => {
                         >
                             Send Message
                         </button>
-
                     </motion.form>
-
                 </div>
             </div>
         </section>
